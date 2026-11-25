@@ -1,0 +1,1 @@
+export default function NotFound(){return(<div className="box"><h1>Page not found</h1><p style={{color:'var(--mute)'}}>This page does not exist or was removed.</p><a className="btn" href="/">Go home</a> <a className="btn ghost" href="/login">Claim your link</a></div>)}

@@ -1,0 +1,1 @@
+export default function robots(){const base=process.env.NEXT_PUBLIC_SITE_URL||'https://vexn-website.vercel.app';return{rules:{userAgent:'*',allow:'/',disallow:['/dashboard','/admin','/login']},sitemap:base+'/sitemap.xml'}}
